@@ -1,0 +1,38 @@
+/* Estilos do menu de navegação */
+.navbar {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo das páginas */
+.page {
+  padding: 20px;
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 24px;
+  color: #388E3C;
+}
