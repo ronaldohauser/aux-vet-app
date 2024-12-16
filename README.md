@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# AuxVet App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O **AuxVet App** é um aplicativo desenvolvido para auxiliar veterinários e donos de animais na coleta e organização de informações sobre o bem-estar de seus pets. O app permite que os usuários preencham informações sobre o histórico de saúde dos animais, como vacinas, vermifugações, ambientes onde vivem, entre outros, de maneira simples e eficiente.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Formulários para coletar informações sobre:
+  - Histórico de vermifugações
+  - Ambiente em que o animal vive
+  - Informações de saúde do animal
+- Interface intuitiva para preencher os dados rapidamente.
+- Validação de campos para garantir a consistência das informações.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: 
+  - HTML
+  - CSS
+  - JavaScript (Vanilla)
+- **Framework**: Nenhum (Vanilla JS)
+- **Ferramentas**:
+  - Git para controle de versão
+  - GitHub para hospedagem do código
 
-### `npm test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requisitos
 
-### `npm run build`
+Antes de começar, você precisa ter as seguintes ferramentas instaladas no seu ambiente de desenvolvimento:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org) (opcional, caso queira rodar localmente)
+- [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/ronaldohauser/aux-vet-app.git
+Navegue até o diretório do projeto:
 
-### `npm run eject`
+bash
+Copiar código
+cd aux-vet-app
+Se você deseja rodar o app localmente, basta abrir o arquivo index.html no seu navegador. Não há necessidade de um servidor local para esta versão do projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Como Contribuir
+Faça um fork do repositório.
+Crie uma nova branch para suas alterações:
+bash
+Copiar código
+git checkout -b minha-feature
+Faça commit das suas alterações:
+bash
+Copiar código
+git commit -m "Adiciona nova feature"
+Envie as alterações para o repositório remoto:
+bash
+Copiar código
+git push origin minha-feature
+Abra um pull request para revisão.
+Licença
+Este projeto está licenciado sob a MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contato
+Para mais informações ou dúvidas, entre em contato com o desenvolvedor principal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+E-mail: duqueronaldo@icloud.com
+LinkedIn: ronaldohauser
+Agradecimentos
+Agradeço a todos que contribuíram diretamente ou indiretamente para o desenvolvimento deste projeto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
